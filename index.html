@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 <body>
     <!-- Navbar -->
-    <nav id="nav-menu">
-        <ul>
-            <li><a class="nav-link home" href="#home">Home</a></li>
-            <li><a class="nav-link about" href="#about">About</a></li>
-            <li><a class="nav-link skills" href="#skills">Skills</a></li>
-            <li><a class="nav-link projects" href="#projects">Projects</a></li>
-            <li><a class="nav-link contact" href="#contact">Contact</a></li>
-            <li><a class="nav-link resume" id="resume-link-1" href="path_to_resume.pdf" target="_blank" download>Resume</a></li>
-        </ul>
-    </nav>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon" ></i>
+        
+        <nav id="nav-menu" class="navbar">
+                <a class="nav-link home" href="#home">Home</a>
+                <a class="nav-link about" href="#about">About</a>
+                <a class="nav-link skills" href="#skills">Skills</a>
+                <a class="nav-link projects" href="#projects">Projects</a>
+                <a class="nav-link contact" href="#contact">Contact</a>
+                <a class="nav-link resume" id="resume-link-1" href="path_to_resume.pdf" target="_blank" download>Resume</a>
+        </nav>
+    </header>
 
     <!-- Home Section -->
     <section id="home">
-        <img src="your_photo.jpg" alt="Your Photo" class="home-img">
+        <img src="images/home.jpg" alt="Your Photo" class="home-img">
         <h1 id="user-detail-name">Your Name</h1>
         <p id="user-detail-intro">Formal Introduction</p>
     </section>
@@ -45,7 +49,7 @@
     <!-- Projects Section -->
     <section id="projects">
         <div class="project-card">
-            <img src="project_image_1.jpg" alt="Project 1">
+            <img src="./images/project.webp" alt="Project 1">
             <h2 class="project-title">Project 1</h2>
             <p class="project-description">Description of Project 1</p>
             <p class="project-tech-stack">Tech Stack: HTML, CSS, JavaScript</p>
@@ -53,7 +57,31 @@
             <a class="project-deployed-link" href="project1_deployed_link">Deployed Link</a>
         </div>
         <div class="project-card">
-            <img src="project_image_2.jpg" alt="Project 2">
+            <img src="./images/project.webp" alt="Project 2">
+            <h2 class="project-title">Project 2</h2>
+            <p class="project-description">Description of Project 2</p>
+            <p class="project-tech-stack">Tech Stack: React, Node.js</p>
+            <a class="project-github-link" href="project2_github_link">GitHub Repository</a>
+            <a class="project-deployed-link" href="project2_deployed_link">Deployed Link</a>
+        </div>
+        <div class="project-card">
+            <img src="./images/project.webp" alt="Project 2">
+            <h2 class="project-title">Project 2</h2>
+            <p class="project-description">Description of Project 2</p>
+            <p class="project-tech-stack">Tech Stack: React, Node.js</p>
+            <a class="project-github-link" href="project2_github_link">GitHub Repository</a>
+            <a class="project-deployed-link" href="project2_deployed_link">Deployed Link</a>
+        </div>
+        <div class="project-card">
+            <img src="./images/project.webp" alt="Project 2">
+            <h2 class="project-title">Project 2</h2>
+            <p class="project-description">Description of Project 2</p>
+            <p class="project-tech-stack">Tech Stack: React, Node.js</p>
+            <a class="project-github-link" href="project2_github_link">GitHub Repository</a>
+            <a class="project-deployed-link" href="project2_deployed_link">Deployed Link</a>
+        </div>
+        <div class="project-card">
+            <img src="./images/project.webp" alt="Project 2">
             <h2 class="project-title">Project 2</h2>
             <p class="project-description">Description of Project 2</p>
             <p class="project-tech-stack">Tech Stack: React, Node.js</p>
