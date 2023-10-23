@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="CSS/style.css" >
 </head>
 <body>
     <!-- Navbar -->
@@ -10,7 +16,7 @@
         <a href="#" class="logo">Portfolio</a>
 
         <i class='bx bx-menu' id="menu-icon" ></i>
-        
+
         <nav id="nav-menu" class="navbar">
                 <a class="nav-link home" href="#home">Home</a>
                 <a class="nav-link about" href="#about">About</a>
@@ -24,13 +30,28 @@
     <!-- Home Section -->
     <section id="home">
         <img src="images/home.jpg" alt="Your Photo" class="home-img">
-        <h1 id="user-detail-name">Your Name</h1>
-        <p id="user-detail-intro">Formal Introduction</p>
+        <h3>Hello, It's Me</h3>
+        <h1 id="user-detail-name">Ranjeet Gupta</h1>
+        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p id="user-detail-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nulla voluptate 
+            blanditiis, vel impedit iure nisi quas.</p>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about section">
-        <!-- Content for the About section -->
+        <div class="about-img">
+            <img src="images/home.jpg" alt="" />
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Consequatur, ea distinctio quo vel ipsum omnis nobis eius beatae 
+                 amet veniam corporis porro natus sapiente 
+                 cum placeat inventore veritatis, sequi delectus ex nesciunt impedit quidem alias.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
     </section>
 
     <!-- Skills Section -->
