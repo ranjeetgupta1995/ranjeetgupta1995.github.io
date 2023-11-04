@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
 
+    <!-- Include the library. -->
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js" ></script>
+
     <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -42,8 +45,8 @@
             </div>
         </div>
         
-        <div>
-            <img src="images/home.jpg" alt="Your Photo" class="home-img">
+        <div class="home-img">
+            <img src="images/home.jpg" alt="Your Photo">
         </div>
     </section>
 
@@ -172,6 +175,14 @@
         <a id="resume-link-1" href="path_to_resume.pdf" target="_blank" download>Open/Download Resume</a>
     </div>
 
+    <!-- github-calendar -->
+    <section>
+        <h2 class="heading">GitHub <span>Calendar</span></h2>
+        <div class="react-activity-calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>    
+    </section>
     <!-- Footer, additional sections, or content can be added as needed -->
     <footer class="footer">
         <div class="footer-text">
@@ -184,4 +195,5 @@
     </footer>
 
 </body>
+<script src="JS/script.js" ></script>
 </html>
